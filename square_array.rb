@@ -4,6 +4,6 @@ def square_array(array)
   array.each do |numbers|                 
     new_array<<numbers**2;                  #itterate through the passed in array, push the                                               squared numbers to the new array. 
   end
-  return new_array                          
+   new_array                          
 end
 
